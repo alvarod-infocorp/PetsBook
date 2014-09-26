@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.petsbook.MainActivity" >
+
+    <item
+        android:id="@+id/menu_action_lost"
+        android:title="@string/action_lost"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_action_found"
+        android:title="@string/action_found"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/Notificaciones"
+                android:title="@string/action_notificaciones"/>
+        </menu>
+    </item>
+
+</menu>
